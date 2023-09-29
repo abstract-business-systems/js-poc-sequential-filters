@@ -1,7 +1,6 @@
 {
-  "name": "@laufire/utils",
-  "version": "3.0.0-0",
-  "description": "A simple set of utility libraries to ease development.",
+  "name": "filterPrioritized",
+  "version": "0.0.1",
   "main": "./index.js",
   "scripts": {
     "copy": "cp ./package.json ./ReadMe.md ./LICENSE ./dist/",
