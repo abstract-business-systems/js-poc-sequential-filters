@@ -1,6 +1,7 @@
 {
-  "name": "filterPrioritized",
-  "version": "0.0.1",
+  "name": "@laufire/utils",
+  "version": "3.0.0-0",
+  "description": "A POC on applying a sequence of filters over an array of objects.",
   "main": "./index.js",
   "scripts": {
     "copy": "cp ./package.json ./ReadMe.md ./LICENSE ./dist/",

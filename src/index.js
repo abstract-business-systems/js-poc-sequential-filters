@@ -1,3 +1,5 @@
-const filterPrioritized = () => 'Starting!';
+const buildFilter = (filters) => (data, filterValues) => filters
+	.reduce((acc, filter) =>
+		acc.filter((item) => filter(item, filterValues)), data);
 
-module.exports = filterPrioritized;
+export { buildFilter };
